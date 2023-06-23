@@ -20,8 +20,39 @@ h1 {
 
 p {
   margin-top: 0px;
+  margin-bottom: 0px;
   color: white;
   font-size: 48px;
+}
+
+@media screen and (max-width: 1580px) {
+  h1 {
+    font-size: 36px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .rainbow-text {
+    font-size: 36px;
+    width: 250px
+  }
+  p {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  h1 {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .rainbow-text {
+    font-size: 30px;
+    width: 200px
+  }
+  p {
+    font-size: 30px;
+  }
 }
 
 .header {

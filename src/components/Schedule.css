@@ -1,0 +1,18 @@
+.schedule {
+  background: rgba(109, 109, 109, 0.7);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+}
+
+h2 {
+  font-family: "Roboto Mono";
+  font-size: 24px;
+  color: white;
+}
