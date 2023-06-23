@@ -1,11 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Home from "./Header";
+import Header from "./components/Header";
+import SpotifyEmbed from "./components/SpotifyEmbed";
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Header />
+      <SpotifyEmbed />
     </div>
   );
 }

@@ -2,7 +2,7 @@
 
 .App {
   text-align: center;
-  background-image: url("./images/abyss-cover.jpg");
+  background-image: url("../public/images/abyss-cover.jpg");
   background-size: cover;
   height: 100vh;
 }
