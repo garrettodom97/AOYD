@@ -1,6 +1,5 @@
 import React from "react";
 import "./Schedule.css";
-import { Spotify } from "react-spotify-embed";
 
 function Schedule() {
   return (
