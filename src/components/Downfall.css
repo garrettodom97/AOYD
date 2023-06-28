@@ -11,8 +11,22 @@
   padding-bottom: 30px;
 }
 
+@media screen and (max-width: 1400px) {
+  .downfall {
+    margin-left: 22%;
+    margin-right: 22%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .downfall {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
 p {
   font-family: "Roboto Mono";
   font-size: 24px;
-  color: white;
+  color: rgba(58, 255, 44, 0.7);
 }
