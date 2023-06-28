@@ -1,14 +1,21 @@
 import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import DownfallInfo from "./pages/DownfallInfo";
 import Header from "./components/Header";
-import SpotifyEmbed from "./components/SpotifyEmbed";
-import Schedule from "./components/Schedule";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <SpotifyEmbed />
-      <Schedule />
+      <Header className="App-header" />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/">
+            <Route index element={<Home />} />
+            <Route path="downfall" element={<DownfallInfo />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

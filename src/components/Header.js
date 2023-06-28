@@ -6,10 +6,10 @@ import RainbowText from "react-rainbow-text";
 const names = [
   "Your",
   "Our",
-  "Greg's",
-  "his/him's",
-  "she/her's",
-  "they/them's",
+  "Joe's",
+  "His",
+  "Her",
+  "Their",
 ];
 
 function Header() {
@@ -21,7 +21,7 @@ function Header() {
   }, []);
 
   useEffect(() => {
-    const intervalID = setInterval(selectName, 5000);
+    const intervalID = setInterval(selectName, 2000);
     return () => clearInterval(intervalID);
   }, [selectName]);
 

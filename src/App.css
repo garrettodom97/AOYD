@@ -4,7 +4,8 @@
   text-align: center;
   background-image: url("../public/images/abyss-cover.jpg");
   background-size: cover;
-  height: 150vh;
+  position: relative;
+  min-height: 160vh;
 }
 
 .App-logo {

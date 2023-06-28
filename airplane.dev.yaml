@@ -1,0 +1,11 @@
+# This file contains configuration for local resources, config variables, and environment variables.
+# For more information, see the docs on the dev config file: https://docs.airplane.dev/dev-lifecycle/dev-config-file
+resources:
+    - baseURL: https://dad-jokes.p.rapidapi.com
+      headers:
+        Accept: application/json
+      kind: rest
+      name: dadjokes
+      slug: dadjokes
+configVars: {}
+envVars: {}
