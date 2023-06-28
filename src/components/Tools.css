@@ -1,32 +1,36 @@
-.downfall {
+.tools {
   background: rgba(109, 109, 109, 0.7);
   border-radius: 25px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
+  align-items: space-around;
   margin-left: 30%;
   margin-right: 30%;
-  margin-bottom: 50px;
   padding-bottom: 30px;
 }
 
+h2 {
+  font-family: "Roboto Mono";
+  font-size: 24px;
+  color: white;
+}
+
+p {
+  font-family: "Roboto Mono";
+  font-size: 24px;
+  color: white;
+}
+
 @media screen and (max-width: 1400px) {
-  .downfall {
+  .tools {
     margin-left: 22%;
     margin-right: 22%;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  .downfall {
+  .tools {
     margin-left: 15%;
     margin-right: 15%;
   }
-}
-
-.typewriter {
-  font-family: "Roboto Mono";
-  font-size: 24px;
-  color: rgb(17, 255, 0);
 }
