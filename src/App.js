@@ -2,14 +2,14 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import DownfallInfo from "./pages/DownfallInfo";
-import Gear from "./pages/Gear"
+import Gear from "./pages/Gear";
 import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-      <Header className="App-header" />
       <BrowserRouter>
+        <Header className="App-header" />
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
