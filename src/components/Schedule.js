@@ -6,7 +6,7 @@ function Schedule() {
     <div className="schedule">
       <h2>Upcoming Shows</h2>
       <img
-        src="./images/blastnscrap.jpg"
+        src="./images/coast_show.png"
         width="500px"
         height="500px"
       />
