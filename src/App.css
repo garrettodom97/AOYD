@@ -5,7 +5,7 @@
   background-image: url("../public/images/aoyd-web-BG-Anomaly.jpg");
   background-size: contain;
   position: relative;
-  min-height: 425vh;
+  min-height: 450vh;
 }
 
 @media screen and (max-width: 1400px) {
