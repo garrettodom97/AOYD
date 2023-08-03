@@ -1,0 +1,20 @@
+.disclaimer {
+  background: rgba(109, 109, 109, 0.7);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: none;
+}
+
+h4 {
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .disclaimer {
+    display: inline-block
+  }
+}

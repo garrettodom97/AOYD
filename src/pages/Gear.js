@@ -20,7 +20,7 @@ function Gear() {
       />
       <Equipment
         name="Warwick Masterbuilt Thumb NT"
-        image_path="./images/Artax.jpg"
+        image_path="./images/artax.jpg"
         width="200px"
         height="600px"
       />

@@ -5,12 +5,12 @@
   background-image: url("../public/images/abyss-cover.jpg");
   background-size: cover;
   position: relative;
-  min-height: 350vh;
+  min-height: 425vh;
 }
 
 @media screen and (max-width: 600px) {
   .App {
-    min-height: 410vh;
+    min-height: 490vh;
   }
 }
 

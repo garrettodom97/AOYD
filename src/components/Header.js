@@ -60,7 +60,7 @@ function Header() {
         )}
       </div> */}
       <div className="icons">
-      <SocialIcon
+        <SocialIcon
           className="icon"
           fgColor="white"
           url="https://www.youtube.com/@authorofyourdownfall"

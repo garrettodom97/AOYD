@@ -6,7 +6,7 @@ import ReactPlayer from "react-player/youtube";
 function SpotifyEmbed() {
   return (
     <div className="spotify">
-      <h2>Check out our latest release and music video:</h2>
+      <h2>Check out our latest single and music video:</h2>
       <Spotify
         className="spotify-embed"
         wide

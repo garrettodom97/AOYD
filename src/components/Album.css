@@ -1,0 +1,41 @@
+.album {
+  background: rgba(109, 109, 109, 0.7);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+}
+
+.album-title {
+  color: rgb(17, 255, 0);
+}
+
+a {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 1400px) {
+  .album {
+    margin-left: 22%;
+    margin-right: 22%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .album {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    width: 200px;
+    height: 200px;
+  }
+}
