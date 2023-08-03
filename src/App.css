@@ -2,10 +2,16 @@
 
 .App {
   text-align: center;
-  background-image: url("../public/images/abyss-cover.jpg");
-  background-size: cover;
+  background-image: url("../public/images/aoyd-web-BG-Anomaly.jpg");
+  background-size: contain;
   position: relative;
   min-height: 425vh;
+}
+
+@media screen and (max-width: 1400px) {
+  .App {
+    background-size: auto;
+  }
 }
 
 @media screen and (max-width: 600px) {
