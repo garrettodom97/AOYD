@@ -4,7 +4,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <h2>Contact Us: <a href="mailto: authorofyourdownfall@gmail.com">authorofyourdownfall@gmail.com</a></h2>
+      <div className="footer-title">Contact Us: <a href="mailto: authorofyourdownfall@gmail.com">authorofyourdownfall@gmail.com</a></div>
     </div>
   );
 }

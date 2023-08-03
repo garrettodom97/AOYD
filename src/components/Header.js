@@ -31,12 +31,20 @@ function Header() {
       <div className="icons">
         <SocialIcon
           className="icon"
-          url="https://open.spotify.com/artist/39THmh6GSMEKvXv2yO8SMc"
+          fgColor="white"
+          url="https://www.instagram.com/authorofyourdownfall/"
+          bgColor="#E1306C"
         />
         <SocialIcon
           className="icon"
-          url="https://www.instagram.com/authorofyourdownfall/"
-          bgColor="#E1306C"
+          network="itunes"
+          fgColor="white"
+          url="https://music.apple.com/us/artist/author-of-your-downfall/1559096641"
+          bgColor="#ff3333"
+        />
+        <SocialIcon
+          className="icon"
+          url="https://open.spotify.com/artist/39THmh6GSMEKvXv2yO8SMc"
         />
       </div>
       <h1>
@@ -52,14 +60,20 @@ function Header() {
         )}
       </div> */}
       <div className="icons">
+      <SocialIcon
+          className="icon"
+          fgColor="white"
+          url="https://www.youtube.com/@authorofyourdownfall"
+        />
+        <SocialIcon
+          className="icon"
+          fgColor="white"
+          url="https://www.facebook.com/authorofyourdownfall"
+        />
         <SocialIcon
           className="icon"
           url="https://www.tiktok.com/@authorofyourdownfall"
           bgColor="#FFFFFF"
-        />
-        <SocialIcon
-          className="icon"
-          url="https://www.youtube.com/@authorofyourdownfall"
         />
       </div>
     </div>

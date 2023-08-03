@@ -17,6 +17,10 @@ h2 {
   color: white;
 }
 
+img {
+  margin-bottom: 30px;
+}
+
 @media screen and (max-width: 1400px) {
   .schedule {
     margin-left: 22%;
