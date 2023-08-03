@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.dd7d96e7.css",
-    "main.js": "/static/js/main.602bbe18.js",
+    "main.js": "/static/js/main.edefaf10.js",
     "static/js/787.0e970668.chunk.js": "/static/js/787.0e970668.chunk.js",
     "static/media/abyss-cover.jpg": "/static/media/abyss-cover.caa6c198b7049a60f491.jpg",
     "index.html": "/index.html",
     "main.dd7d96e7.css.map": "/static/css/main.dd7d96e7.css.map",
-    "main.602bbe18.js.map": "/static/js/main.602bbe18.js.map",
+    "main.edefaf10.js.map": "/static/js/main.edefaf10.js.map",
     "787.0e970668.chunk.js.map": "/static/js/787.0e970668.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd7d96e7.css",
-    "static/js/main.602bbe18.js"
+    "static/js/main.edefaf10.js"
   ]
 }
