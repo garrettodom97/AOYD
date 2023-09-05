@@ -5,7 +5,7 @@ function Schedule() {
   return (
     <div className="schedule">
       <h2>Upcoming Shows</h2>
-      <img src="./images/release-show.png" width="500px" height="500px" />
+      <img src="./images/sep-17-show.png" width="500px" height="500px" />
     </div>
   );
 }
