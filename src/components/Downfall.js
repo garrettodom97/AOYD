@@ -9,11 +9,6 @@ function Downfall() {
       <h2>
         <Link to="/downfall">Investigate the S.T.C.S. Downfall</Link>
       </h2>
-      <h2>
-        Discover the story of the Downfall, a Sol-Techno Conglomerate Starship
-        facing peril and impossible odds on its galatic journey through the
-        medium of Instrumental Progressive Metal.
-      </h2>
       <div className="typewriter">
         <Typewriter
           onInit={(typewriter) => {
@@ -28,6 +23,18 @@ function Downfall() {
           }}
         />
       </div>
+      <Link to="/downfall">
+        <img
+          src="./images/AOYD-Pulp-Cover.jpg"
+          width="400px"
+          height="600px"
+        ></img>
+      </Link>
+      <h2>
+        Discover the story of the Downfall, a Sol-Techno Conglomerate Starship
+        facing peril and impossible odds on its galatic journey through the
+        medium of Instrumental Progressive Metal.
+      </h2>
     </div>
   );
 }

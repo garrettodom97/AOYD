@@ -4,7 +4,14 @@ import "./DownfallInfo.css";
 function Downfall() {
   return (
     <div className="downfall-info">
-      <h1>Downfall</h1>
+      <div className="downfall-poster">
+        <h1>Downfall</h1>
+        <img
+          src="./images/IG_AOYD-Poster.jpg"
+          width="500px"
+          height="500px"
+        ></img>
+      </div>
       <h2>[Prologue]</h2>
       <h2>
         “Captain Cozza,” Admiral VerHoeven addressed Captain Anthony Cozza, his
@@ -161,10 +168,12 @@ function Downfall() {
         <br></br>That twenty seconds lasted an eternity. Entire sections of the
         ship were venting atmosphere—and crew—into space as the temporal and
         gravimetric stress increased.
-        <br></br><i>Warning. Structural Integrity at 64 percent and falling.</i>
+        <br></br>
+        <i>Warning. Structural Integrity at 64 percent and falling.</i>
         <br></br>A soft alarm sounded from engineering. “Got it!” Nicholson
         shouted triumphantly. “Putting it up on the viewscreen now!”
-        <br></br><i>Warning. Structural Integrity at 60 percent and falling.</i>
+        <br></br>
+        <i>Warning. Structural Integrity at 60 percent and falling.</i>
         <br></br>Captain Cozza stared at the anomaly, eyes wide, jaw agape. “My
         god.” he gasped. “Is that…?”
         <br></br>His eyes not leaving the viewscreen, Nicholson replied. “I’m

@@ -15,10 +15,6 @@
   color: rgb(17, 255, 0);
 }
 
-a {
-  margin-top: 50px;
-}
-
 @media screen and (max-width: 1400px) {
   .album {
     margin-left: 22%;
