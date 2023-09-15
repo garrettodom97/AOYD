@@ -9,8 +9,18 @@ function Tools() {
         <Link to="/gear">Tools of the Trade</Link>
       </h2>
       <div className="gear-images">
-        <img src="./images/strandberg.png" width="200px" height="300px" />
-        <img src="./images/ibanez.png" width="100px" height="300px" />
+        <img
+          className="strandberg"
+          src="./images/strandberg.png"
+          width="200px"
+          height="300px"
+        />
+        <img
+          className="ibanez"
+          src="./images/ibanez.png"
+          width="100px"
+          height="300px"
+        />
       </div>
       <p>Check out the gear used by the crew of the S.C.T.S Downfall</p>
     </div>

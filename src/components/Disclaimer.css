@@ -1,11 +1,13 @@
 .disclaimer {
-  background: rgba(109, 109, 109, 0.8);
+  background: rgba(34, 34, 34, 0.9);
   border-radius: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 30px;
+  padding-right: 30px;
   display: none;
 }
 
@@ -13,7 +15,7 @@ h4 {
   color: white;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .disclaimer {
     display: inline-block
   }

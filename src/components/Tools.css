@@ -1,13 +1,15 @@
 .tools {
-  background: rgba(109, 109, 109, 0.8);
+  background: rgba(34, 34, 34, 0.9);
   border-radius: 25px;
   display: flex;
   flex-direction: column;
   align-items: space-around;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-bottom: 75px;
   padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 h2 {
@@ -31,14 +33,19 @@ p {
 
 @media screen and (max-width: 1200px) {
   .tools {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 
-@media screen and (max-width: 600px) {
-  img {
+@media screen and (max-width: 800px) {
+  .strandberg {
     width: 50%;
+    height: 300px;
+  }
+
+  .ibanez {
+    width: 25%;
     height: 300px;
   }
 }

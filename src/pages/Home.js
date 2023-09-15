@@ -11,7 +11,6 @@ import Disclaimer from "../components/Disclaimer";
 function Home() {
   return (
     <div className="Home">
-      <Disclaimer />
       <Downfall />
       <Album />
       <SpotifyEmbed />

@@ -1,14 +1,16 @@
 .album {
-  background: rgba(109, 109, 109, 0.8);
+  background: rgba(34, 34, 34, 0.9);
   border-radius: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-bottom: 50px;
   padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .album-title {
@@ -24,12 +26,12 @@
 
 @media screen and (max-width: 1200px) {
   .album {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   img {
     width: 200px;
     height: 200px;

@@ -3,8 +3,9 @@
 .App {
   text-align: center;
   background-image: url("../public/images/aoyd-web-BG-Anomaly.jpg");
-  background-size: contain;
+  background-size: cover;
   position: relative;
+  background-attachment: fixed;
   min-height: 300vh;
 }
 
@@ -14,9 +15,9 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .App {
-    min-height: 490vh;
+    min-height: 300vh;
   }
 }
 

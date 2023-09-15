@@ -1,11 +1,12 @@
 .footer {
-  background: rgba(109, 109, 109, 0.8);
+  background: rgba(34, 34, 34, 0.9);
   width: 100%;
   display: flex;
   justify-content: center;
   padding-top: 25px;
   padding-bottom: 25px;
   bottom: 0;
+  margin-bottom: 0px;
 }
 
 a {
@@ -18,7 +19,7 @@ a {
   font-size: 24px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .footer-title {
     font-size: 20px;
   }

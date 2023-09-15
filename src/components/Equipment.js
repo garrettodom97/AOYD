@@ -6,6 +6,7 @@ function Equipment(props) {
     <div className="equipment">
       <h2>{props.name}</h2>
       <img
+        className={props.className}
         src={props.image_path}
         width={props.width}
         height={props.height}
