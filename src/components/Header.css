@@ -89,4 +89,10 @@ h1 {
     margin-right: 5px;
     margin-left: 5px;
   }
+
+  .social-svg {
+    transform: scale(0.75);
+    overflow: visible;
+  }
+
 }
