@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.430bacbd.css",
-    "main.js": "/static/js/main.c79dd423.js",
+    "main.css": "/static/css/main.c511613e.css",
+    "main.js": "/static/js/main.49c6bf38.js",
+    "reactPlayerPreview.js": "/static/js/reactPlayerPreview.ed0263c6.chunk.js",
     "static/js/787.0e970668.chunk.js": "/static/js/787.0e970668.chunk.js",
     "static/media/aoyd-web-BG-Anomaly.jpg": "/static/media/aoyd-web-BG-Anomaly.17146d43b60a6303a73e.jpg",
     "index.html": "/index.html",
-    "main.430bacbd.css.map": "/static/css/main.430bacbd.css.map",
-    "main.c79dd423.js.map": "/static/js/main.c79dd423.js.map",
+    "main.c511613e.css.map": "/static/css/main.c511613e.css.map",
+    "main.49c6bf38.js.map": "/static/js/main.49c6bf38.js.map",
+    "reactPlayerPreview.ed0263c6.chunk.js.map": "/static/js/reactPlayerPreview.ed0263c6.chunk.js.map",
     "787.0e970668.chunk.js.map": "/static/js/787.0e970668.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.430bacbd.css",
-    "static/js/main.c79dd423.js"
+    "static/css/main.c511613e.css",
+    "static/js/main.49c6bf38.js"
   ]
 }

@@ -19,6 +19,12 @@ h2 {
   color: white;
 }
 
+h3 {
+  font-family: "Roboto Mono";
+  font-size: 18px;
+  color: white;
+}
+
 img {
   margin-bottom: 30px;
 }
